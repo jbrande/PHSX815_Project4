@@ -9,7 +9,9 @@ usage: python python/PlotPlanets.py
 Cluster.py will read in a specified input file, and take a specified number of clusters, and run both k-means and gaussian mixture modeling on the input file data. It will also plot the results for the k-means and gaussian mixture modeling clusters.
 
 usage: python python/Cluster.py -K [integer] -input [filename]
+
 -K 		(optional) 	integer number of cluster >= 1. If not passed, default 2
+
 -input 	(mandatory)	filename with stored JSON data in format specified from PlotPlanets
 
 Required dependencies are: numpy, scipy, matplotlib, sklearn, pyvo
